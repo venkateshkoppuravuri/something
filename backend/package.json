@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
+    "start": "node dist/index.ts",
     "build": "tsc"
   },
+
   "dependencies": {
     "fastify": "^4.22.0",
-    "fastify-jwt": "^5.0.0",
+    "fastify-jwt": "^4.0.0",
     "minio": "^7.0.18",
     "ioredis": "^5.3.2",
     "pg": "^8.10.0"
